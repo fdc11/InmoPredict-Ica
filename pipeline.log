@@ -1,0 +1,194 @@
+2026-11-18 09:32:56 [INFO] ============================================================
+2026-11-18 09:32:56 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 09:32:56 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 09:32:56 [INFO] ============================================================
+2026-11-18 09:32:56 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:32:56 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 09:32:56 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:32:56 [ERROR] ❌ Fase 0 falló después de 0.01s: No module named 'numpy'
+2026-11-18 09:45:52 [INFO] ============================================================
+2026-11-18 09:45:52 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 09:45:52 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 09:45:52 [INFO] ============================================================
+2026-11-18 09:45:52 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:45:52 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 09:45:52 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:45:53 [INFO] Dataset generado: 500 filas × 5 columnas
+2026-11-18 09:45:53 [INFO] Columnas: ['area_m2', 'habitaciones', 'distancia_centro_km', 'antiguedad_anos', 'precio_usd']
+2026-11-18 09:45:53 [INFO] Precio promedio: $100,721 USD
+2026-11-18 09:45:53 [INFO] ✅ Fase 0 completada en 0.77s
+2026-11-18 09:45:53 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:45:53 [INFO]   FASE 1: PREPROCESAMIENTO Y EDA
+2026-11-18 09:45:53 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:45:55 [INFO] Ejecutando análisis exploratorio de datos (EDA)...
+2026-11-18 09:45:55 [INFO] Preprocesando datos (split 80/20, StandardScaler)...
+2026-11-18 09:45:55 [INFO] Train set: X=(400, 4), y=(400,)
+2026-11-18 09:45:55 [INFO] Test  set: X=(100, 4), y=(100,)
+2026-11-18 09:45:55 [INFO] ✅ Fase 1 completada en 1.81s
+2026-11-18 09:45:55 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:45:55 [INFO]   FASE 2: REGRESIÓN LINEAL SIMPLE
+2026-11-18 09:45:55 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:45:56 [ERROR] ❌ Fase 2 falló después de 0.57s: cannot import name 'save_model' from 'src.linear_model' (C:\Users\Alumno\Desktop\InmoPredict Ica\src\linear_model.py)
+2026-11-18 09:48:40 [INFO] ============================================================
+2026-11-18 09:48:40 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 09:48:40 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 09:48:40 [INFO] ============================================================
+2026-11-18 09:48:40 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:40 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 09:48:40 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:40 [INFO] Dataset generado: 500 filas × 5 columnas
+2026-11-18 09:48:40 [INFO] Columnas: ['area_m2', 'habitaciones', 'distancia_centro_km', 'antiguedad_anos', 'precio_usd']
+2026-11-18 09:48:40 [INFO] Precio promedio: $100,721 USD
+2026-11-18 09:48:40 [INFO] ✅ Fase 0 completada en 0.70s
+2026-11-18 09:48:40 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:40 [INFO]   FASE 1: PREPROCESAMIENTO Y EDA
+2026-11-18 09:48:40 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:42 [INFO] Ejecutando análisis exploratorio de datos (EDA)...
+2026-11-18 09:48:42 [INFO] Preprocesando datos (split 80/20, StandardScaler)...
+2026-11-18 09:48:42 [INFO] Train set: X=(400, 4), y=(400,)
+2026-11-18 09:48:42 [INFO] Test  set: X=(100, 4), y=(100,)
+2026-11-18 09:48:42 [INFO] ✅ Fase 1 completada en 1.61s
+2026-11-18 09:48:42 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:42 [INFO]   FASE 2: REGRESIÓN LINEAL SIMPLE
+2026-11-18 09:48:42 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:44 [INFO] ✅ Fase 2 completada en 1.65s
+2026-11-18 09:48:44 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:44 [INFO]   FASE 3: RED NEURONAL (MLP)
+2026-11-18 09:48:44 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:49 [WARNING] TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-18 09:48:55 [INFO] ✅ Fase 3 completada en 11.90s
+2026-11-18 09:48:55 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:55 [INFO]   FASE 4: COMPARACIÓN DE MODELOS
+2026-11-18 09:48:55 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 09:48:56 [INFO] Reporte de comparación guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\reports\informe_tecnico.md
+2026-11-18 09:48:56 [INFO] ✅ Fase 4 completada en 0.34s
+2026-11-18 09:48:56 [INFO] ============================================================
+2026-11-18 09:48:56 [INFO] 🎉 Pipeline completado en 16.2s
+2026-11-18 09:48:56 [INFO]    Revisa reports/ para gráficos y el reporte de comparación.
+2026-11-18 09:48:56 [INFO]    Para la API: uvicorn api.main:app --reload
+2026-11-18 09:48:56 [INFO] ============================================================
+2026-11-18 10:50:32 [INFO] ============================================================
+2026-11-18 10:50:32 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 10:50:32 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 10:50:32 [INFO] ============================================================
+2026-11-18 10:50:32 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:50:32 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 10:50:32 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:50:32 [ERROR] ❌ Fase 0 falló después de 0.00s: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+2026-11-18 10:51:33 [INFO] ============================================================
+2026-11-18 10:51:33 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 10:51:33 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 10:51:33 [INFO] ============================================================
+2026-11-18 10:51:33 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:33 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 10:51:33 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:33 [INFO] Dataset generado: 500 filas × 5 columnas
+2026-11-18 10:51:33 [INFO] Dataset guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\data\raw\ica_houses.csv
+2026-11-18 10:51:33 [INFO] Columnas: ['area_m2', 'habitaciones', 'distancia_centro_km', 'antiguedad_anos', 'precio_usd']
+2026-11-18 10:51:33 [INFO] Precio promedio: $100,721 USD
+2026-11-18 10:51:33 [INFO] ✅ Fase 0 completada en 0.43s
+2026-11-18 10:51:33 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:33 [INFO]   FASE 1: PREPROCESAMIENTO Y EDA
+2026-11-18 10:51:33 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:34 [INFO] Ejecutando análisis exploratorio de datos (EDA)...
+2026-11-18 10:51:34 [INFO] Preprocesando datos (split 80/20, StandardScaler)...
+2026-11-18 10:51:34 [INFO] Train set: X=(400, 4), y=(400,)
+2026-11-18 10:51:34 [INFO] Test  set: X=(100, 4), y=(100,)
+2026-11-18 10:51:34 [INFO] ✅ Fase 1 completada en 1.15s
+2026-11-18 10:51:34 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:34 [INFO]   FASE 2: REGRESIÓN LINEAL SIMPLE
+2026-11-18 10:51:34 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:35 [INFO] ✅ Fase 2 completada en 0.75s
+2026-11-18 10:51:35 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:35 [INFO]   FASE 3: RED NEURONAL (MLP)
+2026-11-18 10:51:35 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:38 [WARNING] TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-18 10:51:44 [INFO] ✅ Fase 3 completada en 9.22s
+2026-11-18 10:51:44 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:44 [INFO]   FASE 4: COMPARACIÓN DE MODELOS
+2026-11-18 10:51:44 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 10:51:45 [INFO] Reporte de comparación guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\reports\informe_tecnico.md
+2026-11-18 10:51:45 [INFO] ✅ Fase 4 completada en 0.36s
+2026-11-18 10:51:45 [INFO] ============================================================
+2026-11-18 10:51:45 [INFO] 🎉 Pipeline completado en 11.9s
+2026-11-18 10:51:45 [INFO]    Revisa reports/ para gráficos y el reporte de comparación.
+2026-11-18 10:51:45 [INFO]    Para la API: uvicorn api.main:app --reload
+2026-11-18 10:51:45 [INFO] ============================================================
+2026-11-18 11:13:10 [INFO] ============================================================
+2026-11-18 11:13:10 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 11:13:10 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 11:13:10 [INFO] ============================================================
+2026-11-18 11:13:10 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:10 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 11:13:10 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:10 [INFO] Dataset generado: 500 filas × 5 columnas
+2026-11-18 11:13:10 [INFO] Dataset guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\data\raw\ica_houses.csv
+2026-11-18 11:13:10 [INFO] Columnas: ['area_m2', 'habitaciones', 'distancia_centro_km', 'antiguedad_anos', 'precio_usd']
+2026-11-18 11:13:10 [INFO] Precio promedio: $110,935 USD
+2026-11-18 11:13:10 [INFO] ✅ Fase 0 completada en 0.50s
+2026-11-18 11:13:10 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:10 [INFO]   FASE 1: PREPROCESAMIENTO Y EDA
+2026-11-18 11:13:10 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:12 [INFO] Ejecutando análisis exploratorio de datos (EDA)...
+2026-11-18 11:13:12 [INFO] Preprocesando datos (split 80/20, StandardScaler)...
+2026-11-18 11:13:12 [INFO] Train set: X=(400, 4), y=(400,)
+2026-11-18 11:13:12 [INFO] Test  set: X=(100, 4), y=(100,)
+2026-11-18 11:13:12 [INFO] ✅ Fase 1 completada en 1.25s
+2026-11-18 11:13:12 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:12 [INFO]   FASE 2: REGRESIÓN LINEAL SIMPLE
+2026-11-18 11:13:12 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:13 [INFO] ✅ Fase 2 completada en 0.80s
+2026-11-18 11:13:13 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:13 [INFO]   FASE 3: RED NEURONAL (MLP)
+2026-11-18 11:13:13 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:16 [WARNING] TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-18 11:13:22 [INFO] ✅ Fase 3 completada en 9.04s
+2026-11-18 11:13:22 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:22 [INFO]   FASE 4: COMPARACIÓN DE MODELOS
+2026-11-18 11:13:22 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:13:22 [INFO] Reporte de comparación guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\reports\informe_tecnico.md
+2026-11-18 11:13:22 [INFO] ✅ Fase 4 completada en 0.44s
+2026-11-18 11:13:22 [INFO] ============================================================
+2026-11-18 11:13:22 [INFO] 🎉 Pipeline completado en 12.0s
+2026-11-18 11:13:22 [INFO]    Revisa reports/ para gráficos y el reporte de comparación.
+2026-11-18 11:13:22 [INFO]    Para la API: uvicorn api.main:app --reload
+2026-11-18 11:13:22 [INFO] ============================================================
+2026-11-18 11:27:37 [INFO] ============================================================
+2026-11-18 11:27:37 [INFO]   InmoPredict Ica – Pipeline de Machine Learning
+2026-11-18 11:27:37 [INFO]   Sistema de Tasación Inmobiliaria – Ica, Perú
+2026-11-18 11:27:37 [INFO] ============================================================
+2026-11-18 11:27:37 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:37 [INFO]   FASE 0: GENERACIÓN DE DATOS SINTÉTICOS
+2026-11-18 11:27:37 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:38 [INFO] Dataset generado: 500 filas × 5 columnas
+2026-11-18 11:27:38 [INFO] Dataset guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\data\raw\ica_houses.csv
+2026-11-18 11:27:38 [INFO] Columnas: ['area_m2', 'habitaciones', 'distancia_centro_km', 'antiguedad_anos', 'precio_usd']
+2026-11-18 11:27:38 [INFO] Precio promedio: $110,935 USD
+2026-11-18 11:27:38 [INFO] ✅ Fase 0 completada en 0.45s
+2026-11-18 11:27:38 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:38 [INFO]   FASE 1: PREPROCESAMIENTO Y EDA
+2026-11-18 11:27:38 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:39 [INFO] Ejecutando análisis exploratorio de datos (EDA)...
+2026-11-18 11:27:39 [INFO] Preprocesando datos (split 80/20, StandardScaler)...
+2026-11-18 11:27:39 [INFO] Train set: X=(400, 4), y=(400,)
+2026-11-18 11:27:39 [INFO] Test  set: X=(100, 4), y=(100,)
+2026-11-18 11:27:39 [INFO] ✅ Fase 1 completada en 1.32s
+2026-11-18 11:27:39 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:39 [INFO]   FASE 2: REGRESIÓN LINEAL SIMPLE
+2026-11-18 11:27:39 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:40 [INFO] ✅ Fase 2 completada en 0.95s
+2026-11-18 11:27:40 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:40 [INFO]   FASE 3: RED NEURONAL (MLP)
+2026-11-18 11:27:40 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:44 [WARNING] TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-11-18 11:27:50 [INFO] ✅ Fase 3 completada en 10.07s
+2026-11-18 11:27:50 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:50 [INFO]   FASE 4: COMPARACIÓN DE MODELOS
+2026-11-18 11:27:50 [INFO] ════════════════════════════════════════════════════════════
+2026-11-18 11:27:51 [INFO] Reporte de comparación guardado en: C:\Users\Alumno\Desktop\InmoPredict Ica\reports\informe_tecnico.md
+2026-11-18 11:27:51 [INFO] ✅ Fase 4 completada en 0.50s
+2026-11-18 11:27:51 [INFO] ============================================================
+2026-11-18 11:27:51 [INFO] 🎉 Pipeline completado en 13.3s
+2026-11-18 11:27:51 [INFO]    Revisa reports/ para gráficos y el reporte de comparación.
+2026-11-18 11:27:51 [INFO]    Para la API: uvicorn api.main:app --reload
+2026-11-18 11:27:51 [INFO] ============================================================
